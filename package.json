@@ -1,0 +1,17 @@
+{
+  "name": "new-sass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "sass src/scss/styles.scss src/css/styles.css",
+    "watch": "sass --watch src/scss/styles.scss:src/css/styles.css",
+    "start": "npm run compile && npm run watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.48.0"
+  }
+}

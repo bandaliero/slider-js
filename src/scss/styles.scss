@@ -1,0 +1,21 @@
+body {
+  background-color: lightgrey;
+  font-size: 28px;
+}
+.img-box {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+
+  .img {
+    width: 400px;
+    height: 600px;
+    position: absolute;
+    left: 40%;
+  }
+}
+.button {
+  width: 200px;
+  height: 50px;
+  background-color: lightblue;
+}
